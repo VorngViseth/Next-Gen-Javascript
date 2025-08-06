@@ -18,3 +18,4 @@ int main() {
 */
 
 // Your JavaScript code here:
+let 
