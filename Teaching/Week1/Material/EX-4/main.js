@@ -18,13 +18,13 @@ int main() {
 
 // JavaScript Implementation:
 let student = {
-  name: "Visal",
-  age: 18,
+  name : 'Viseth',
+  age : 18,
 };
 
-console.log("Name:", student.name);
-console.log("Age:", student.age);
+console.log('Name : ', student.name);
+console.log('Age : ', student.age);
 
 // Display output in the page
-let output = `Name: ${student.name}\nAge: ${student.age}`
+let output = `Name : ${student.name}\nAge : ${student.age}`;
 console.log(output);

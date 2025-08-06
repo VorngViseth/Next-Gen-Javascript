@@ -23,28 +23,9 @@ int main() {
 
 // JavaScript Implementation:
 let isLoggedIn = true;
-let isAdmin = false;
+let isAdmin = true;
 
-if (isLoggedIn && isAdmin) {
-  console.log("Access granted");
-} else {
-  console.log("Access denied");
-}
+if(isLoggedIn && isAdmin) console.log('Access granted');
+else console.log('Access denied');
 
-if (!isAdmin) {
-  console.log("Not an admin");
-}
-
-// Display output in the page
-let output = "";
-if (isLoggedIn && isAdmin) {
-  output += "Access granted\n";
-} else {
-  output += "Access denied\n";
-}
-
-if (!isAdmin) {
-  output += "Not an admin";
-}
-
-document.getElementById("output").innerHTML = output;
+if(!isAdmin) console.log('Not an admin');

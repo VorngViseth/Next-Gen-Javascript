@@ -11,3 +11,5 @@ int main() {
 */
 
 // JavaScript Implementation:
+let age = 20;
+console.log(`I am ${age} years old`);
