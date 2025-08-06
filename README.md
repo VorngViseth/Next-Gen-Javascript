@@ -1,3 +1,5 @@
+# This is just a repo that forked to do the exercises
+
 # Next-Gen Engagement Program - JavaScript ES6 Fundamentals
 
 This repository contains teaching materials for the Next-Gen Engagement Program JavaScript course.
