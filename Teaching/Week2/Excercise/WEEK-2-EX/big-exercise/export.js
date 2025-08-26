@@ -13,3 +13,5 @@ const displayStudentInfoSimulation = async (studentInfo) => {
         email: `${studentInfo.name.toLowerCase().replace(/\s/g, '')}@school.edu`
     };
 };
+
+export {displayStudentInfoSimulation};

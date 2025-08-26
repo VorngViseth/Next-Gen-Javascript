@@ -3,3 +3,4 @@
 
 // Exercise 2. Make an array called 'fruits' with at least 3 elements.
 // Use destructuring to extract the first two elements into variables and print them to the console.
+ 
